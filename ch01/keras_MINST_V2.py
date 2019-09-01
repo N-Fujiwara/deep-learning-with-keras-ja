@@ -49,6 +49,10 @@ model.add(Dense(N_HIDDEN, input_shape=(RESHAPED,)))
 model.add(Activation('relu'))
 model.add(Dense(N_HIDDEN))
 model.add(Activation('relu'))
+
+model.add(Dense(N_HIDDEN)) # 追加隠れ層
+model.add(Activation('relu'))
+
 model.add(Dense(NB_CLASSES))
 model.add(Activation('softmax'))
 model.summary()

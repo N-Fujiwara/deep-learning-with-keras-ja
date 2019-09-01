@@ -11,7 +11,8 @@ from make_tensorboard import make_tensorboard
 np.random.seed(1671)  # for reproducibility
 
 # network and training
-NB_EPOCH = 20
+#NB_EPOCH = 20
+NB_EPOCH = 250
 BATCH_SIZE = 128
 VERBOSE = 1
 NB_CLASSES = 10   # number of outputs = number of digits
