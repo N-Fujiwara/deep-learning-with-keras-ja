@@ -7,7 +7,7 @@ import os
 
 
 def make_tensorboard(set_dir_name=''):
-    tictoc = strftime("%a_%d_%b_%Y_%H_%M_%S", gmtime())
+    tictoc = strftime("%a_%d_%b_%Y_%H_%M_%S.data", gmtime())
     directory_name = tictoc
     log_dir = set_dir_name + '_' + directory_name
     os.mkdir(log_dir)
