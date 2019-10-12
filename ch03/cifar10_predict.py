@@ -24,12 +24,12 @@ def crop_resize(image_path):
 
 
 folder = Path(images_folder)
-image_paths = [str(f) for f in folder.glob("*.png")]
+image_paths = [str(f) for f in sorted(folder.glob("*.png"))]
 images = [crop_resize(p) for p in image_paths]
 images = np.asarray(images)
 
 predicted = model.predict_classes(images)
-
+#print(predicted)
 assert predicted[0] == 3, "image should be cat."
 assert predicted[1] == 5, "image should be dog."
 
