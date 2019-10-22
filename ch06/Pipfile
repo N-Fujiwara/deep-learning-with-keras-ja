@@ -10,10 +10,8 @@ pylint = "*"
 keras = "==2.1.6"
 tensorflow-gpu = "==1.14.0"
 h5py = "==2.9.0"
+sklearn = "*"
 matplotlib = "==2.1.1"
-gensim = "==3.2.0"
-nltk = "==3.2.5"
-scikit-learn = "==0.19.1"
 
 [requires]
 python_version = "3.6"
