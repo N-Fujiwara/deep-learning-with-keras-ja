@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+tensorflow-gpu = "==1.14.0"
+h5py = "==2.9.0"
+Keras = "==2.1.2"
+pandas = "==0.22.0"
+matplotlib = "==2.1.1"
+#Pillow = "==5.1.0"
+Pillow = "==4.3.0"
+keras-adversarial = "==0.0.3"
+# for wavenet
+picklable_itertools = "==0.1.1"
+sacred="==0.6.10"
+tqdm="==4.8.4"
+q="==2.6"
+scipy="==1.0.0"
+
+[requires]
+python_version = "3.6"

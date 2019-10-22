@@ -1,0 +1,6 @@
+/models/
+/output/
+/train/
+/generator
+/generated_image.png
+/discriminator
