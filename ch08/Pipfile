@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+keras = "==2.1.6"
+tensorflow-gpu = "==1.14.0"
+h5py = "==2.9.0"
+gym = "==0.10.5"
+pygame = "==1.9.3"
+doom_py = "==0.0.15"
+
+[requires]
+python_version = "3.6"
